@@ -107,6 +107,16 @@ const DataBase = {
                 Href : 'https://rutube.ru/',
                 Text : "rutube.ru",
             },
+            20 : {
+                Favicon : DevData.FaviconUrl +'savefrom.net',
+                Href : 'https://ru.savefrom.net/',
+                Text : "Скачать видео онлайн",
+            },
+            21 : {
+                Favicon : DevData.FaviconUrl +'save4k.com',
+                Href : 'https://save4k.com/',
+                Text : "Скачать видео и аудио с YouTube... онлайн",
+            },
         },
     },
     4 : {
@@ -150,12 +160,12 @@ const DataBase = {
             0 : {
                 Favicon : DevData.FaviconUrl +'github.io',
                 Href : 'https://evgenijlomakin.github.io/bookmarks/',
-                Text : "github.io мой сайт",
+                Text : "github мой сайт",
             },
             1 : {
                 Favicon : DevData.FaviconUrl +'github.com/',
                 Href : 'https://github.com/EvgenijLomakin',
-                Text : "github.com/ мой профиль",
+                Text : "github мой профиль",
             },
             2 : {
                 Favicon : DevData.FaviconUrl +'doka.guide',
@@ -166,6 +176,16 @@ const DataBase = {
                 Favicon : DevData.FaviconUrl +'dwstroy.ru',
                 Href : 'https://dwstroy.ru/stail/plaginy-rasshireniya/emmet-shpargalka/',
                 Text : "Базовый синтаксис плагина EMMET",
+            },
+            4 : {
+                Favicon : DevData.FaviconUrl +'realfavicongenerator.net',
+                Href : 'https://realfavicongenerator.net/',
+                Text : "real favicon generator net",
+            },
+            5 : {
+                Favicon : DevData.FaviconUrl +'caniuse.com',
+                Href : 'https://caniuse.com/',
+                Text : "caniuse.com",
             },
         },
     },
