@@ -1,6 +1,3 @@
-console.log('DataBase.js');
-console.log('DevData');
-console.dir(DevData);
 const DataBase = {
     0 : {
             Rang : 0,
@@ -145,20 +142,35 @@ const DataBase = {
     5 : {
         Rang : 5,
         Head : {
-            Title : 'HTML',
+            Title : 'WEB DEV INFO',
             BGC : '',
             Color : '',
         },
         Site : {
             0 : {
+                Favicon : DevData.FaviconUrl +'github.io',
+                Href : 'https://evgenijlomakin.github.io/bookmarks/',
+                Text : "github.io мой сайт",
+            },
+            1 : {
+                Favicon : DevData.FaviconUrl +'github.com/',
+                Href : 'https://github.com/EvgenijLomakin',
+                Text : "github.com/ мой профиль",
+            },
+            2 : {
                 Favicon : DevData.FaviconUrl +'doka.guide',
                 Href : 'https://doka.guide/tools/markdown/',
                 Text : "markdown",
             },
+            3 : {
+                Favicon : DevData.FaviconUrl +'dwstroy.ru',
+                Href : 'https://dwstroy.ru/stail/plaginy-rasshireniya/emmet-shpargalka/',
+                Text : "Базовый синтаксис плагина EMMET",
+            },
         },
     },
     // 6 : {
-    //     Rang : 4,
+    //     Rang : 6,
     //     Head : {
     //         Title : '',
     //         BGC : '',
