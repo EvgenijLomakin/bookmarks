@@ -1,4 +1,3 @@
-// bookmark
 bookmark_start();
 bmHeaderBtn.addEventListener('click', (e) => {
     if ( bmHeaderBtn.dataset.show == 'show' )
@@ -36,8 +35,15 @@ bmHeaderMenu.addEventListener('click', (e) => {
 // Показать при пером заходе на сайт
 function bookmark_start()
 {
-    if ( localStorage.getItem('bn-ferst-start', false) ) return;
-    bmHeaderBtn.dataset.show = 'show';
-    bmHeaderMenu.dataset.show = 'show';
-    localStorage.setItem('bn-ferst-start', false);
+    if ( localStorage.getItem('bn-ferst-start', false) )
+    {
+        document.getElementById('bookmark-start-message').dataset.show = 'hide';
+    }
+    else
+    {
+        document.getElementById('bookmark-start-message').dataset.show = 'show';
+        // bmHeaderBtn.dataset.show = 'show';
+        // bmHeaderMenu.dataset.show = 'show';
+        localStorage.setItem('bn-ferst-start', false);
+    }
 }
