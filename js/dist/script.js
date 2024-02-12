@@ -41,6 +41,10 @@ function ready() {
     // Показать при пером заходе на сайт
     function bookmark_start()
     {
+        setTimeout( () => {
+            bmHeaderBtn.dataset.show = 'hide';
+            bmHeaderMenu.dataset.show = 'hide';
+        }, 500);
         if ( localStorage.getItem('bn-ferst-start', false) )
         {
             document.getElementById('bookmark-start-message').dataset.show = 'hide';
@@ -48,8 +52,6 @@ function ready() {
         else
         {
             document.getElementById('bookmark-start-message').dataset.show = 'show';
-            // bmHeaderBtn.dataset.show = 'show';
-            // bmHeaderMenu.dataset.show = 'show';
             localStorage.setItem('bn-ferst-start', false);
         }
     }
