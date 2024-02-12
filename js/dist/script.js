@@ -127,7 +127,7 @@ const DataBase = {
             2 : {
                 Favicon : DevData.FaviconUrl +'mail.google.com',
                 Href : 'https://mail.google.com/mail/u/0/#inbox',
-                Text : "mail.google.com",
+                Text : "Gmail",
             },
             30 : {
                 Favicon : DevData.FaviconUrl +'temp-mail.org',
