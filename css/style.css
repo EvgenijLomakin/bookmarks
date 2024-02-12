@@ -169,7 +169,7 @@ body, html {
   position: relative;
   width: 1.5em;
   height: 1em;
-  background-color: #c1c1c1;
+  background-color: #ffffff;
 }
 .bookmark__header-btn-item {
   display: flex;
@@ -182,7 +182,7 @@ body, html {
   background-color: #404040;
 }
 .bookmark__header-btn[data-show=show] .bookmark__header-btn-item {
-  background-color: #c1c1c1;
+  background-color: #ffffff;
 }
 .bookmark__header-btn:hover {
   cursor: pointer;
