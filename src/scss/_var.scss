@@ -1,0 +1,21 @@
+$header_bgc: #111;
+$header_color: #fff;
+
+@mixin btnBoxSadow {
+    //box-shadow: 0px 5px 3px 1px rgb(4, 133, 255);
+    box-shadow: 0px 5px 7px 0px rgb(25, 255, 4);
+}
+@mixin TipsBoxSadow {
+    box-shadow: inset 0px 0px 3px 1px rgb(25, 255, 4);
+}
+@mixin BoxShadowGood {
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        bottom: -0.2em;
+        left: 0;
+        background-color: #111;
+        box-shadow: 0 0 3px 1px rgb(25, 255, 4);
+    }
+}

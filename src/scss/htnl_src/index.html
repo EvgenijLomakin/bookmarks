@@ -1,0 +1,67 @@
+<!-- 11 feb 12 : 50 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme fsz">
+    <header class="header">
+        <div class="header__logo">BM</div>
+        <div class="bookmark__header-btn" data-show="hide" title="покать / скрыть">
+            <span class="bookmark__header-btn-item"></span>
+        </div>
+        <div class="bookmark__header-menu" data-show="hide">
+            <buttom class="bookmark__header-menu-btn" >Поиск</buttom>
+            <buttom class="bookmark__header-menu-btn" >Почта</buttom>
+            <buttom class="bookmark__header-menu-btn">Карты</buttom>
+        </div>
+        <div class="settings__wrapper">
+            <div class="settings__btn">
+                <span class="settings__btn-theme" title="светлая - темная" data-show="hide"></span>
+            </div>
+            <div class="settings__btn">
+                <span class="settings__btn-fsz" title="шрифт размер" data-show="hide">aA</span>
+            </div>
+            <div class="settings__fsz-input-block" data-show="hide">
+                <input type="range" name="fsz" id="fsz-input-range" min="10" max="36" value="18">
+            </div>
+        </div>
+    </header>
+
+    <div id="bookmark-root" class="bookmark__root"></div>
+
+    <!-- <div class="bookmark__wrapper"data-show="show" data-rang="1">
+        <p class="bookmark__wrapper-title">Поиск</p>
+        <div class="bookmark__container-link">
+            <a href="#" class="bookmark__link">
+                <img src="#" class="bookmark__link-favicon">
+                <p class="bookmark__link-text">Google Google Google Google Google Google Google Google</p>
+            </a>
+        </div>
+        <div class="bookmark__container-link">
+            <a href="#" class="bookmark__link">
+                <img src="#" class="bookmark__link-favicon">
+                <p class="bookmark__link-text">Google Google Google Google Google Google Google Google</p>
+            </a>
+        </div>
+    </div> -->
+    <!-- /.bookmark__wrapper -->
+    <!-- <div class="bookmark__wrapper" data-show="show" data-rang="2">
+        <p class="bookmark__wrapper-title">Почта</p>
+    </div> -->
+    <!-- /.bookmark__wrapper -->
+
+    <script src="js/data_const.js"></script>
+    <script src="js/DataBase.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/font-size.js"></script>
+    <script src="js/component/companent_bm__wrapper.js"></script>
+    <script src="js/component/component_bm_link.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/bookmark.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>
