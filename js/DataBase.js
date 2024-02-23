@@ -175,7 +175,7 @@ const DataBase = {
             3 : {
                 Favicon : DevData.FaviconUrl +'doka.guide',
                 Href : 'https://doka.guide/tools/markdown/',
-                Text : "markdown",
+                Text : "markdown doka.guide",
             },
             4 : {
                 Favicon : DevData.FaviconUrl +'dwstroy.ru',
